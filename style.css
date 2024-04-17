@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: "League Spartan", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.header{
+}
+.header_hero{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 80px;
+}
+.header_left{
+    background-image: url(images/desktop-image-hero-1.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+.header_logo img{
+    margin-left: 30px;
+}
+.header_menu ul{
+    display: flex;
+    gap: 20px;
+}
+.header_menu ul li{
+    list-style: none;
+}
+.header_menu ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+
+}
+
+.header_right{
+    max-width: 360px;
+    padding-top: 40px;
+}
+.header_right h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.header_right p{
+    color: hsl(0, 0%, 63%);
+    line-height: 24px;
+    margin: 20px 0;
+}
+.header_right .btn{
+    text-decoration: none;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 27%);
+    font-weight: 700;
+    font-size: 14px;
+}
+.carousel_icon{
+    display: block;
+    margin-top: 37px;
+    background-color: #000;
+    padding: 15px 18px;
+    color: hsl(0, 0%, 80%);
+    margin-left: -80px;
+}
+.carousel_icon i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Product section */
+.product{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.product_item h2{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.product_item p{
+    color: hsl(0, 0%, 63%);;
+    font-size: 14px;
+    line-height: 18px;
+}
+.product_review{
+    max-width: 500px;
+    margin: auto;
+}
