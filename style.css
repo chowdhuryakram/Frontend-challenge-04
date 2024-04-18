@@ -99,3 +99,154 @@ img{
     max-width: 500px;
     margin: auto;
 }
+
+/* Responsvie Design */
+@media screen and (max-width: 1120px) {
+    .carousel_icon{
+        margin-top: 12px;
+    }
+    
+}
+@media screen and (max-width: 1010px) {
+    .carousel_icon{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 910px) {
+    .header_hero{
+        gap: 40px;
+    }
+    .header_right h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .header_right p{
+        margin: 10px 0;
+    }
+    .header_right .btn{
+        font-size: 12px;
+    }
+    .product_review{
+        max-width: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .header_hero{
+        gap: 20px;
+    }
+    .header_right{
+        padding-top: 20px;
+    }
+    .header_right h1{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .header_right p{
+        margin: 10px 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .header_right .btn{
+        font-size: 12px;
+    }
+    .product_review{
+        max-width: 350px;
+        margin-top: 10px;
+    }
+    .product_item h2{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .product_item p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header_logo img{
+        max-width: 40px;
+    }
+    .header_hero{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header_right{
+        max-width: 450px;
+        margin: auto;
+        padding-top: 10px;
+    }
+    .header_right h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .header_right p{
+        margin: 10px 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header_right .btn{
+        font-size: 12px;
+        display: block;
+        margin-top: 25px;
+    }
+    .carousel_icon{
+        display: block;
+        margin: 25px 0;
+        margin-left: 0px;
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+        max-width: 450px;
+        margin: auto;
+    }
+    .product_item h2{
+        margin: 20px 0;
+        font-size: 18px;
+    }
+    .product_item p{
+        color: hsl(0, 0%, 63%);;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .product_review{
+        max-width: 450px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .header_left{
+        height: 200px;
+        gap: 15px;
+        padding-top: 15px;
+    }
+    .header_logo img{
+        margin-left: 10px;
+        max-width: 35px;
+    }
+    .header_menu ul{
+        gap: 10px;
+    }
+    .header_menu ul li a{
+        font-size: 12px;
+    }
+    .header_right h1{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .header_right .btn{
+        font-size: 10px;
+    }
+    .product_item h2{
+        font-size: 13px;
+        line-height: 18px;
+        margin: 5px 0;
+    }
+}
